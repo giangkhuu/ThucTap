@@ -73,7 +73,7 @@ class KhachHangController extends Controller
             ->with('thuoc')->get();
 
         // Biến cờ để đánh dấu khi có sản phẩm không đủ số lượng tồn kho
-        $errorFlag = false;
+        $errorFlag = false; 
 
         // Lưu thông tin đơn hàng chi tiết
         foreach ($giohang as $value) {
